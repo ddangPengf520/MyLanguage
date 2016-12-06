@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  ViewController2.m
 //  ManyLanguage
 //
-//  Created by 风外杏林香 on 16/12/3.
+//  Created by 风外杏林香 on 2016/12/5.
 //  Copyright © 2016年 风外杏林香. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewController2.h"
 
-@interface ViewController ()
+@interface ViewController2 ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];

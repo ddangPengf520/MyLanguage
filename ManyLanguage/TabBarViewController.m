@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  TabBarViewController.m
 //  ManyLanguage
 //
-//  Created by 风外杏林香 on 16/12/3.
+//  Created by 风外杏林香 on 2016/12/5.
 //  Copyright © 2016年 风外杏林香. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TabBarViewController.h"
 
-@interface ViewController ()
+@interface TabBarViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
