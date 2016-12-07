@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		767F65621DF2B70A00954E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F65611DF2B70A00954E00 /* main.m */; };
 		767F65651DF2B70A00954E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F65641DF2B70A00954E00 /* AppDelegate.m */; };
-		767F65681DF2B70A00954E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F65671DF2B70A00954E00 /* ViewController.m */; };
 		767F656B1DF2B70A00954E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767F65691DF2B70A00954E00 /* Main.storyboard */; };
 		767F656D1DF2B70A00954E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767F656C1DF2B70A00954E00 /* Assets.xcassets */; };
 		767F65701DF2B70A00954E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767F656E1DF2B70A00954E00 /* LaunchScreen.storyboard */; };
 		767F657B1DF2B70A00954E00 /* ManyLanguageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F657A1DF2B70A00954E00 /* ManyLanguageTests.m */; };
 		767F65861DF2B70A00954E00 /* ManyLanguageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F65851DF2B70A00954E00 /* ManyLanguageUITests.m */; };
+		767F659E1DF2BFA000954E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F659C1DF2BFA000954E00 /* ViewController.m */; };
+		767F659F1DF2BFA000954E00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767F659D1DF2BFA000954E00 /* ViewController.xib */; };
+		767F65A21DF2C4C800954E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767F65A41DF2C4C800954E00 /* InfoPlist.strings */; };
+		767F65AB1DF2CA8F00954E00 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767F65AD1DF2CA8F00954E00 /* Localizable.strings */; };
+		FB235E621DF519F000F69F65 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB235E611DF519F000F69F65 /* TabBarViewController.m */; };
+		FB235E6B1DF5354900F69F65 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = FB235E6A1DF5354900F69F65 /* NSBundle+Language.m */; };
+		FB235E6F1DF559C200F69F65 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FB235E6D1DF559C200F69F65 /* ViewController1.m */; };
+		FB235E701DF559C200F69F65 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB235E6E1DF559C200F69F65 /* ViewController1.xib */; };
+		FB235E741DF559CF00F69F65 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FB235E721DF559CF00F69F65 /* ViewController2.m */; };
+		FB235E751DF559CF00F69F65 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB235E731DF559CF00F69F65 /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		767F65611DF2B70A00954E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		767F65631DF2B70A00954E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		767F65641DF2B70A00954E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		767F65661DF2B70A00954E00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		767F65671DF2B70A00954E00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		767F656A1DF2B70A00954E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		767F656C1DF2B70A00954E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767F656F1DF2B70A00954E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,30 @@
 		767F65811DF2B70A00954E00 /* ManyLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManyLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		767F65851DF2B70A00954E00 /* ManyLanguageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManyLanguageUITests.m; sourceTree = "<group>"; };
 		767F65871DF2B70A00954E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767F65981DF2B88100954E00 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "km-KH"; path = "km-KH.lproj/Main.strings"; sourceTree = "<group>"; };
+		767F65991DF2B88100954E00 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "km-KH"; path = "km-KH.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		767F659B1DF2BFA000954E00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		767F659C1DF2BFA000954E00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		767F659D1DF2BFA000954E00 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		767F65A31DF2C4C800954E00 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "km-KH"; path = "km-KH.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		767F65A51DF2C4CB00954E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		767F65A61DF2C8C600954E00 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		767F65A71DF2C8C600954E00 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		767F65A81DF2C8C600954E00 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		767F65AC1DF2CA8F00954E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		767F65AE1DF2CA9100954E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		767F65AF1DF2CA9200954E00 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "km-KH"; path = "km-KH.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		767F65B01DF2CA9400954E00 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FB235E601DF519F000F69F65 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		FB235E611DF519F000F69F65 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		FB235E691DF5354900F69F65 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		FB235E6A1DF5354900F69F65 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		FB235E6C1DF559C200F69F65 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		FB235E6D1DF559C200F69F65 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		FB235E6E1DF559C200F69F65 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		FB235E711DF559CF00F69F65 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FB235E721DF559CF00F69F65 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		FB235E731DF559CF00F69F65 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +134,21 @@
 			children = (
 				767F65631DF2B70A00954E00 /* AppDelegate.h */,
 				767F65641DF2B70A00954E00 /* AppDelegate.m */,
-				767F65661DF2B70A00954E00 /* ViewController.h */,
-				767F65671DF2B70A00954E00 /* ViewController.m */,
+				767F659B1DF2BFA000954E00 /* ViewController.h */,
+				767F659C1DF2BFA000954E00 /* ViewController.m */,
+				FB235E6C1DF559C200F69F65 /* ViewController1.h */,
+				FB235E6D1DF559C200F69F65 /* ViewController1.m */,
+				FB235E6E1DF559C200F69F65 /* ViewController1.xib */,
+				FB235E711DF559CF00F69F65 /* ViewController2.h */,
+				FB235E721DF559CF00F69F65 /* ViewController2.m */,
+				FB235E731DF559CF00F69F65 /* ViewController2.xib */,
+				FB235E601DF519F000F69F65 /* TabBarViewController.h */,
+				FB235E611DF519F000F69F65 /* TabBarViewController.m */,
+				FB235E691DF5354900F69F65 /* NSBundle+Language.h */,
+				FB235E6A1DF5354900F69F65 /* NSBundle+Language.m */,
+				767F65AD1DF2CA8F00954E00 /* Localizable.strings */,
+				767F65A41DF2C4C800954E00 /* InfoPlist.strings */,
+				767F659D1DF2BFA000954E00 /* ViewController.xib */,
 				767F65691DF2B70A00954E00 /* Main.storyboard */,
 				767F656C1DF2B70A00954E00 /* Assets.xcassets */,
 				767F656E1DF2B70A00954E00 /* LaunchScreen.storyboard */,
@@ -207,6 +251,7 @@
 				TargetAttributes = {
 					767F655C1DF2B70A00954E00 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LNU4F5ZAF7;
 						ProvisioningStyle = Automatic;
 					};
 					767F65751DF2B70A00954E00 = {
@@ -228,6 +273,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"km-KH",
+				"zh-Hans",
 			);
 			mainGroup = 767F65541DF2B70A00954E00;
 			productRefGroup = 767F655E1DF2B70A00954E00 /* Products */;
@@ -246,9 +293,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB235E701DF559C200F69F65 /* ViewController1.xib in Resources */,
+				767F659F1DF2BFA000954E00 /* ViewController.xib in Resources */,
+				767F65AB1DF2CA8F00954E00 /* Localizable.strings in Resources */,
 				767F65701DF2B70A00954E00 /* LaunchScreen.storyboard in Resources */,
 				767F656D1DF2B70A00954E00 /* Assets.xcassets in Resources */,
+				FB235E751DF559CF00F69F65 /* ViewController2.xib in Resources */,
 				767F656B1DF2B70A00954E00 /* Main.storyboard in Resources */,
+				767F65A21DF2C4C800954E00 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767F65681DF2B70A00954E00 /* ViewController.m in Sources */,
+				FB235E741DF559CF00F69F65 /* ViewController2.m in Sources */,
+				FB235E621DF519F000F69F65 /* TabBarViewController.m in Sources */,
+				767F659E1DF2BFA000954E00 /* ViewController.m in Sources */,
+				FB235E6F1DF559C200F69F65 /* ViewController1.m in Sources */,
 				767F65651DF2B70A00954E00 /* AppDelegate.m in Sources */,
+				FB235E6B1DF5354900F69F65 /* NSBundle+Language.m in Sources */,
 				767F65621DF2B70A00954E00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +371,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				767F656A1DF2B70A00954E00 /* Base */,
+				767F65981DF2B88100954E00 /* km-KH */,
+				767F65A61DF2C8C600954E00 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,8 +381,31 @@
 			isa = PBXVariantGroup;
 			children = (
 				767F656F1DF2B70A00954E00 /* Base */,
+				767F65991DF2B88100954E00 /* km-KH */,
+				767F65A71DF2C8C600954E00 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		767F65A41DF2C4C800954E00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767F65A31DF2C4C800954E00 /* km-KH */,
+				767F65A51DF2C4CB00954E00 /* en */,
+				767F65A81DF2C8C600954E00 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		767F65AD1DF2CA8F00954E00 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767F65AC1DF2CA8F00954E00 /* Base */,
+				767F65AE1DF2CA9100954E00 /* en */,
+				767F65AF1DF2CA9200954E00 /* km-KH */,
+				767F65B01DF2CA9400954E00 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -382,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -424,6 +507,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LNU4F5ZAF7;
 				INFOPLIST_FILE = ManyLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----.ManyLanguage";
@@ -435,6 +520,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LNU4F5ZAF7;
 				INFOPLIST_FILE = ManyLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----.ManyLanguage";
@@ -507,6 +594,7 @@
 				767F658C1DF2B70A00954E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		767F658D1DF2B70A00954E00 /* Build configuration list for PBXNativeTarget "ManyLanguageTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +603,7 @@
 				767F658F1DF2B70A00954E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		767F65901DF2B70A00954E00 /* Build configuration list for PBXNativeTarget "ManyLanguageUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +612,7 @@
 				767F65921DF2B70A00954E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 #import "TabBarViewController.h"
+#import "ViewController.h"
+#import "ViewController1.h"
+#import "ViewController2.h"
 
 @interface TabBarViewController ()
 
@@ -17,6 +20,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // 创建一堆Controller
+    ViewController *vc1 = [[ViewController alloc] init];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:vc1];
+//    nav1.tabBarItem.title = NSLocalizedString(@"vc1Title", nil);
+    vc1.title = NSLocalizedString(@"vc1Title", nil);
+    
+    ViewController1 *vc2 = [[ViewController1 alloc] init];
+    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:vc2];
+//    nav2.tabBarItem.title = NSLocalizedString(@"vc2Title", nil);
+    vc2.title = NSLocalizedString(@"vc2Title", nil);
+    
+    ViewController2 *vc3 = [[ViewController2 alloc] init];
+    UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:vc3];
+//    nav3.tabBarItem.title = NSLocalizedString(@"vc3Title", nil);
+    vc3.title = NSLocalizedString(@"vc3Title", nil);
+    self.viewControllers = @[vc1, vc2, vc3];
+    
 }
 
 - (void)didReceiveMemoryWarning {

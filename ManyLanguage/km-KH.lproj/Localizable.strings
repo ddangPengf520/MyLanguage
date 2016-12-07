@@ -2,6 +2,14 @@
   Localizable.strings
   ManyLanguage
 
-  Created by 风外杏林香 on 16/12/3.
+  Created by 风外杏林香 on 16/12/5.
   Copyright © 2016年 风外杏林香. All rights reserved.
 */
+"showTxt" = "ការធ្វើតេស្ត";
+"vc1Title" = "vc1ចំណងជើង";
+"vc2Title" = "vc2ចំណងជើង";
+"vc3Title" = "vc3ចំណងជើង";
+"btn1" = "ប្តូរទៅប្រទេសចិន";
+"btn2" = "ប្តូរទៅជាភាសាអង់គ្លេស";
+"btn3" = "ប្តូរទៅជាភាសាខ្មែរ";
+"titleLabel" = "នេះគឺជាស្លាក";

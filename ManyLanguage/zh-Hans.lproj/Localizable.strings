@@ -2,6 +2,15 @@
   Localizable.strings
   ManyLanguage
 
-  Created by 风外杏林香 on 16/12/3.
+  Created by 风外杏林香 on 16/12/5.
   Copyright © 2016年 风外杏林香. All rights reserved.
 */
+
+"showTxt" = "测试";
+"vc1Title" = "vc1标题";
+"vc2Title" = "vc2标题";
+"vc3Title" = "vc2标题";
+"btn1" = "切换到中文";
+"btn2" = "切换到英文";
+"btn3" = "切换到高棉文";
+"titleLabel" = "这是一个标签";

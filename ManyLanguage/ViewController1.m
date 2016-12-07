@@ -9,6 +9,7 @@
 #import "ViewController1.h"
 
 @interface ViewController1 ()
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.view.backgroundColor = [UIColor greenColor];
+    self.titleLabel.text = [NSString stringWithFormat:@"%@", NSLocalizedString(@"titleLabel", nil)];
 }
 
 - (void)didReceiveMemoryWarning {

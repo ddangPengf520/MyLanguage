@@ -2,6 +2,14 @@
   Localizable.strings
   ManyLanguage
 
-  Created by 风外杏林香 on 16/12/3.
+  Created by 风外杏林香 on 16/12/5.
   Copyright © 2016年 风外杏林香. All rights reserved.
 */
+"showTxt" = "text";
+"vc1Title" = "vc1title";
+"vc2Title" = "vc2title";
+"vc3Title" = "vc3title";
+"btn1" = "change to Chinese";
+"btn2" = "change to English";
+"btn3" = "change to Khmer";
+"titleLabel" = "this is Label";
